@@ -10,15 +10,23 @@ namespace Module3
     {
         static void Main(string[] args)
         {
-            const string MyName = "Jane";
+            string MyName = "Jane";
+            int MyAge = 31;
+            bool HaveIPet = true;
+            double MyShoeSize = 37.5;
 
-            Console.WriteLine(MyName);
+            Console.WriteLine("Hello, world! This information from exercise.");
+            Console.WriteLine("My name is " + MyName);
+            Console.WriteLine("My age is " + MyAge);
+            Console.WriteLine("Do I have a pet? " + HaveIPet);
+            Console.WriteLine("My shoe size is " + MyShoeSize);
 
-            Console.WriteLine("\tПривет, мир");
-            Console.WriteLine("\tМне 27 лет");
-            Console.WriteLine("\tMy name is\n  Jane");
-            Console.WriteLine('\u0040');
-            Console.WriteLine('\x23');
+            Console.WriteLine("This information about real me.");
+            Console.WriteLine("My name is Pavel");
+            Console.WriteLine("My age is 31");
+            Console.WriteLine("I don't have a pet");
+            Console.WriteLine("My shoe size is 42");
+
 
             Console.ReadKey();
         }
