@@ -27,7 +27,6 @@ namespace Module3
             Console.WriteLine("I don't have a pet");
             Console.WriteLine("My shoe size is 42");
 
-
             Console.ReadKey();
         }
     }
