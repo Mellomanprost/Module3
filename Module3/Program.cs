@@ -32,6 +32,10 @@ namespace Module3
             string name = Console.ReadLine();
             Console.WriteLine("Enter your age: ");
             var age = Convert.ToInt32(Console.ReadLine());
+            if (age == 31)
+            {
+                Console.WriteLine("That's a greate age!");
+            }
             Console.WriteLine("Your name is {0} and age is {1}", name, age);
             //Console.WriteLine("What is your favorite day of week?");
             //DayOfWeek favDay = (DayOfWeek)int.Parse(Console.ReadLine());
@@ -39,7 +43,6 @@ namespace Module3
             Console.WriteLine("Enter your birthdate: ");
             var birthdate = Console.ReadLine();
             Console.WriteLine("Your birthdate is " + birthdate);
-
             Console.ReadKey();
         }
     }
